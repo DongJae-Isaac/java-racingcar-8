@@ -20,6 +20,10 @@ public class Racing {
         }
     }
 
+    /**
+     * 자동차 객체마다 랜덤 숫자를 뽑아서 자동차를 움직인다
+     * 각 라운드가 끝날때마다 자동차의 이름과 이동한 거리를 출력한다
+     */
     public void moveAllCars() {
         for(Car car : cars.getCars()) {
             int random = Randoms.pickNumberInRange(0, 9);
