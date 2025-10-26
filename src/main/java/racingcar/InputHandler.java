@@ -8,7 +8,7 @@ public class InputHandler {
         return Console.readLine();
     }
 
-    public int getTimesInput() {
+    public int getRoundsInput() {
         System.out.println("시도할 횟수는 몇 회인가요?");
         return Integer.parseInt(Console.readLine());
     }
